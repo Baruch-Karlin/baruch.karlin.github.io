@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/aebd6f4b8c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav-all-pages">
+        <div id="#">
+          <div><a href="index.html">HOME</a></div>
+        </div>             
+      
+
+        <div id="#">
+          <div><a href="about.html">ABOUT</a></div>
+        </div>
+      
+        <div id="#">
+            <div><a href="contact.html">CONTACT</a></div>
+        </div>  
+      </nav>
+
+      <section>
+        <form action="">
+            
+            <fieldset>
+                <legend>Your contact information</legend>
+                
+                <label for="FirstName">First Name</label>
+                    <input type="text" id="FirstName" name="FirstName" placeholder="First Name">
+                
+                <label for="LastName">Last Name</label>
+                    <input type="text" id="LastName" name="LastName" placeholder="Last Name">  
+                
+                <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com"> 
+                
+                <label for="comments">Comment</label>
+                <textarea type="text" id="comments" name="comments" placeholder="Don't be shy, drop a comment here!"></textarea>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Would you like to meet for?</legend>
+                
+                <label><input type="radio" name=meetingtype value="coffee"> A coffee</label>
+                <label><input type="radio" name=meetingtype value="zoom"> A zoom meeting</label>
+                <label><input type="radio" name=meetingtype value="drive"> A drive to Eilat</label>
+                <label><input type="radio" name=meetingtype value="chef"> A chef meal</label>
+
+                <p>Topic of discussion?</p>
+
+                <input type="checkbox" id="topic1" name="topic1" value="cake">
+                <label for="topic1">How to make the perfect babka cake.</label>
+                <input type="checkbox" id="topic2" name="topic2" value="program">
+                <label for="topic2">How to program your own website.</label>
+                <input type="checkbox" id="topic3" name="topic3" value="NewYork">
+                <label for="topic3">New York in the spring.</label>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+        </form>
+      </section>
+
+</body>
+</html>
